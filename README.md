@@ -1,6 +1,6 @@
 # Notes
 
-In this project I wrote Api's of keeps notes as well as user can set the reminder also by using Express framework of NodeJS.
+In this project I wrote Api's of keeps notes by using Express framework of NodeJS.
 
 
 ## project Introduction
