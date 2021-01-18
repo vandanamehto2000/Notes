@@ -6,7 +6,7 @@ knex.schema.hasTable('Important_Notes').then((exists) => {
             table.increments('notes_id').primary();
             table.string('title')
             table.string('notes')
-            table.string('set_reminder')
+            table.string('set_time')
         })
         .catch((err) => {
             console.log(err)
