@@ -8,7 +8,7 @@ module.exports = (Router) => {
         knex('Important_Notes').insert({
             title: req.body.title,
             notes: req.body.notes,
-            set_reminder: endTime
+            set_time: endTime
         })
         .then((data) => {
             console.log(data)
