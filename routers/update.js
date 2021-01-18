@@ -9,7 +9,7 @@ module.exports = (Router) => {
         .update({
             title: req.body.title,
             notes: req.body.notes,
-            set_reminder: endTime
+            set_time: endTime
         })
         .then((data) => {
             console.log(data)
